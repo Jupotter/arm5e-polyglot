@@ -1,0 +1,36 @@
+{
+  "id": "arm5e-polyglot",
+  "title": "arm5e-polyglot",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11.309"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "polyglot",
+        "type": "module",
+        "manifest": "https://github.com/mclemente/fvtt-module-polyglot/releases/latest/download/module.json",
+        "compatibility": {
+          "verified": "1.12.11.0"
+        }
+      }
+    ],
+    "systems": [
+      {
+        "id": "arm5e",
+        "type": "system",
+        "manifest": "https://raw.githubusercontent.com/xzotl42/arm5e/master/system.json",
+        "compatibility": {}
+      }
+    ]
+  },
+  "esmodules": ["module/arm5e-polyglot.js"],
+  "authors": [
+    {
+      "name": "Jupotter",
+      "flags": {}
+    }
+  ]
+}
