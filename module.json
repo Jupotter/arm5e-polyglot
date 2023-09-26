@@ -1,7 +1,8 @@
 {
   "id": "arm5e-polyglot",
   "title": "arm5e-polyglot",
-  "version": "0.0.1",
+  "description": "Ars Magica 5 compatibility for Polyglot",
+  "version": "0.1.0",
   "compatibility": {
     "minimum": "11",
     "verified": "11.309"
@@ -22,7 +23,10 @@
         "id": "arm5e",
         "type": "system",
         "manifest": "https://raw.githubusercontent.com/xzotl42/arm5e/master/system.json",
-        "compatibility": {}
+        "compatibility": {
+          "minimum": "2.0",
+          "verified": "2.2.2.14"
+        }
       }
     ]
   },
@@ -30,7 +34,12 @@
   "authors": [
     {
       "name": "Jupotter",
+      "url": "https://github.com/Jupotter",
       "flags": {}
     }
-  ]
+  ],
+  "manifest": "https://github.com/Jupotter/arm5e-polyglot/raw/master/module.json",
+  "download": "https://github.com/Jupotter/arm5e-polyglot/archive/refs/heads/master.zip",
+  "license": "LICENSE.txt",
+  "readme": "README.md"
 }
